@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    margin-top: 5%;
+    font-size: 100%;
+    line-height: 1.6;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.content {
+    float: left;
+    max-width: 50rem;
+}
+
+/* aside {
+      float:left; 
+      margin:0;
+      margin-right: 2em; 
+      max-width: 30em;} */
+
+/* Paragraph Spacing */
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* HEADERS */
+/* Make header wrap see: https://stackoverflow.com/a/54126229 */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: inherit;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+/* Override tables to inherit from our settings */
+/* (this appeared larger than the rest on android!) */
+table,
+p,
+a,
+ul,
+ol {
+    font-size: 1rem;
+}
+
+/* MOBILE */
+@media screen and (max-width:800px) {
+    html {
+        font-size: 12px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+
+/*Dark mode*/
+/* @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #1F2022;
+        color: antiquewhite;
+      }
+    a {color: lightskyblue;}
+
+    } */
