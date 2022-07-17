@@ -6,7 +6,6 @@ body {
 }
 
 html {
-    margin-top: 5%;
     font-size: 100%;
     line-height: 1.6;
     font-family: 'JetBrains Mono', monospace;
@@ -70,6 +69,13 @@ a,
 ul,
 ol {
     font-size: 1rem;
+}
+
+
+/* NAV */
+nav {
+
+        /* border-bottom: 1px solid black; */
 }
 
 /* MOBILE */
