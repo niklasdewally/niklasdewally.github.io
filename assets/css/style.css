@@ -85,35 +85,28 @@ nav > a {
 /* CONTACT DETAILS */
 
 address {
-    font-size: 1.5em;
-    margin-top: 3%;
-}
-address > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
+    margin-top: 5%;
 }
 
-address > ul > li {
-    display: inline-block;
+address a {
+    margin-left:0.5rem ;
+    margin-right:0.5rem ;
 }
 
-address > ul > li > a:link {
+address a:link {
+        color: darkslategray;
+}
+
+address a:visited {
+        color: darkslategray;
+}
+
+address a:hover {
         color: black;
-}
 
-address > ul > li > a:visited {
+}
+address a:active {
         color: black;
-}
-
-address > ul > li > a:hover {
-        color: gray;
-
-}
-address > ul > li > a:active {
-        color: gray;
 }
 /* MOBILE */
 @media screen and (max-width:800px) {
