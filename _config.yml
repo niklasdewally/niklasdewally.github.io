@@ -1,1 +1,5 @@
 exclude: [deploy.sh]
+plugins:
+  - jekyll-feed
+name: Niklas Dewally
+url: https://ndjd.uk
