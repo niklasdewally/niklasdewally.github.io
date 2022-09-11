@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    font-size: 18px;
+    /*font-size: 18px;*/
     line-height: 1.6;
     font-family: 'JetBrains Mono', monospace;
 }
@@ -37,6 +37,7 @@ h5 {
 
 /* HEADERS */
 /* Make header wrap see: https://stackoverflow.com/a/54126229 */
+
 h1,
 h2,
 h3,
@@ -44,7 +45,7 @@ h4,
 h5 {
     line-height: inherit;
 }
-
+/*
 h4 {
     font-size: 1.2em;
 }
@@ -60,7 +61,7 @@ h2 {
 h1 {
     font-size: 3.5em;
 }
-
+*/
 /* Override tables to inherit from our settings */
 /* (this appeared larger than the rest on android!) */
 table,
