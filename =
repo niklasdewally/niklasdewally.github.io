@@ -14,18 +14,20 @@
 <main>
   <h1>Niklas Dewally</h1>
   <hr>
+  <ol>
     <li>
-    I am a second year Computer Science student at 
-    <a href="https://www.st-andrews.ac.uk/computer-science/">
-    University of St Andrews</a>.
+    I am an undergraduate computer science student at 
+    <a href="https://www.st-andrews.ac.uk/computer-science/">University of St Andrews</a>.
     </li>
 
     <li>
-      Currently, I am undertaking a research internship studying graph transfer
-      learning using deep learning methods. (Supervised by Simon Dobson and
-      Juan Ye).
+      I am currently working as a Undergraduate Research Intern, studying graph
+      transfer learning using deep learning. (Supervisors: Simon Dobson, Juan
+      Ye).
+
+    <a href="https://www.st-andrews.ac.uk/computer-science/">University of St Andrews</a>.
     </li>
-  </ul>
+
 
   {% include contacticons.html %}
 

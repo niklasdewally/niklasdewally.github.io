@@ -7,9 +7,9 @@ body {
 }
 
 html {
-    /*font-size: 18px;*/
     line-height: 1.6;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 16pt;
 }
 
 main {
@@ -26,6 +26,7 @@ main {
 p,
 ul,
 ol,
+li,
 h1,
 h2,
 h3,
@@ -79,7 +80,7 @@ nav {
 }
 
 nav > a {
-    font-size:1.2rem;
+    font-size:0.8rem;
     margin-right: 1em;
 }
 
@@ -127,4 +128,4 @@ address a:active {
       }
     a {color: lightskyblue;}
 
-    } */
+    } *
