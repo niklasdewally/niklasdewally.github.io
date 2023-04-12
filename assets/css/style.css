@@ -2,9 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap');
 
 
-html {
-    background:#f2f0e6;
+:root {
+  --bg: #f2f0e6;
+  --accent: #26428b;
+  --accent-highlight: #6495ed;
+  --analogous: #6c337e;
+  --analogous-highlight: #a87bd6;
+}
 
+html {
+    background:var(--bg);
     font-family: 'Fira Code', monospace;
     font-weight: 300;
     line-height: 1.5;
@@ -82,30 +89,31 @@ nav > a {
 
 /* CONTACT DETAILS */
 
+a:link {
+  color: var(--accent);
+}
+
+a:active , a:hover {
+  color: var(--accent-highlight);
+}
+
+a:visited {
+  color: var(--analogous-highlight);
+}
+
+
 address {
     margin-top: 10%;
 }
 
+address a:visited{
+  color: var(--accent);
+}
 address a {
     margin-left:0.5rem ;
     margin-right:0.5rem ;
 }
 
-address a:link {
-        color: indianred;
-}
-
-address a:visited {
-        color: indianred;
-}
-
-address a:hover {
-        color: #f4c9c6;
-
-}
-address a:active {
-        color: #f4c9c6;
-}
 /* MOBILE */
 @media screen and (max-width:800px) {
     html {
