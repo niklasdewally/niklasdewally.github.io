@@ -82,6 +82,11 @@ ol {
 }
 
 
+.tagline {
+  font-weight:400;
+  font-style: normal;
+
+}
 /* NAV */
 nav {
         /* border-bottom: 1px solid black; */
