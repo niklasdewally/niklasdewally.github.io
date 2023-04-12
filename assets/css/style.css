@@ -101,14 +101,29 @@ a:visited {
   color: var(--analogous-highlight);
 }
 
+a:visited:hover {
+  color: var(--accent-highlight);
+}
 
 address {
     margin-top: 10%;
 }
 
+address a:hover {
+
+}
+
+address a:hover {
+
+}
 address a:visited{
   color: var(--accent);
 }
+
+address a:visited:hover{
+  color: var(--accent-highlight);
+}
+
 address a {
     margin-left:0.5rem ;
     margin-right:0.5rem ;
