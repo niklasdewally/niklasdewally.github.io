@@ -83,8 +83,9 @@ ol {
 
 
 .tagline {
-  font-weight:400;
+  font-weight:600;
   font-style: normal;
+  margin-bottom: 1.5em;
 
 }
 /* NAV */
