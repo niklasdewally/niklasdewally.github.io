@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap');
+
+
+html {
+    background:#f2f0e6;
+
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
 
 body {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-html {
-    line-height: 1.6;
-    font-family: 'JetBrains Mono', monospace;
-    #font-size: 16pt;
 }
 
 main {
@@ -21,6 +26,7 @@ main {
       margin:0;
       margin-right: 2em; 
       max-width: 30em;} */
+
 
 /* Paragraph Spacing */
 p,
@@ -46,21 +52,11 @@ h4,
 h5 {
     line-height: inherit;
 }
-/*
-h4 {
-    font-size: 1.2em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-h2 {
-    font-size: 2.5em;
-}
 
 h1 {
-    font-size: 3.5em;
+    /*font-size: 3.5em;*/
+    font-size: 2rem;
+    font-weight: 600;
 }
 */
 /* Override tables to inherit from our settings */
@@ -96,19 +92,19 @@ address a {
 }
 
 address a:link {
-        color: darkslategray;
+        color: indianred;
 }
 
 address a:visited {
-        color: darkslategray;
+        color: indianred;
 }
 
 address a:hover {
-        color: black;
+        color: #f4c9c6;
 
 }
 address a:active {
-        color: black;
+        color: #f4c9c6;
 }
 /* MOBILE */
 @media screen and (max-width:800px) {
