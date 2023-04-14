@@ -3,4 +3,9 @@ plugins:
   - jekyll-feed
 name: Niklas Dewally
 permalink: pretty
+include:
+  - _pages
+
+collections:
+  -  projects
 

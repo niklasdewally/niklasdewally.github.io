@@ -30,7 +30,8 @@ body {
 }
 
 main {
-    max-width: 50rem;
+    min-width: 20rem;
+    max-width: 60rem;
 }
 
 /* aside {
