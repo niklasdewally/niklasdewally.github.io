@@ -1,6 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap');
-
 
 :root {
   --bg: #f2f0e6;
@@ -12,98 +10,21 @@
 
 html {
     background:var(--bg);
-    font-family: 'Fira Code', monospace;
-    font-weight: 300;
-    line-height: 1.5;
-
 }
+
+/* http://bettermotherfuckingwebsite.com/ */
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-
+    line-height: 1.5;
+    margin: 40px auto;
+    max-width: 80em;
+    padding: 0 10px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    font-size: 16px;
 }
 
-main {
-    min-width: 40rem;
-    max-width: 80rem;
-}
-
-/* aside {
-      float:left; 
-      margin:0;
-      margin-right: 2em; 
-      max-width: 30em;} */
-
-
-/* Paragraph Spacing */
-p,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-/* Do not indent lists */
-
-ul {list-style-position: inside;
-  padding-left: 0;
-}
-/* HEADERS */
-/* Make header wrap see: https://stackoverflow.com/a/54126229 */
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    line-height: inherit;
-}
-
-h1 {
-    /*font-size: 3.5em;*/
-    font-size: 2rem;
-    font-weight: 600;
-}
-*/
-/* Override tables to inherit from our settings */
-/* (this appeared larger than the rest on android!) */
-table,
-p,
-a,
-ul,
-ol {
-    font-size: 1rem;
-}
-
-
-.tagline {
-  font-weight:600;
-  font-style: normal;
-  margin-bottom: 1.5em;
-
-}
-/* NAV */
-nav {
-        /* border-bottom: 1px solid black; */
-}
-
-nav > a {
-    font-size:0.8rem;
-    margin-right: 1em;
-}
+h1,h2,h3,h4,h5 { line-height:1.2;}
 
 /* CONTACT DETAILS */
 
@@ -123,6 +44,22 @@ a:visited:hover {
   color: var(--accent-highlight);
 }
 
+.tagline {
+  font-weight:600;
+  font-style: normal;
+  margin-bottom: 1.2em;
+
+}
+/* NAV */
+
+/*
+nav > a {
+    font-size:0.8rem;
+    margin-right: 1em;
+}
+*/
+
+
 address {
     text-align: left;
     margin-top: 3rem;
@@ -141,27 +78,3 @@ address a {
     margin-left:0.5rem ;
     margin-right:0.5rem ;
 }
-
-/* MOBILE */
-@media screen and (max-width:800px) {
-    html {
-        font-size: 12px;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    body { justify-content: start;}
-}
-
-
-/*Dark mode*/
-/* @media (prefers-color-scheme: dark) {
-      html {
-        background-color: #1F2022;
-        color: antiquewhite;
-      }
-    a {color: lightskyblue;}
-
-
-    } *
